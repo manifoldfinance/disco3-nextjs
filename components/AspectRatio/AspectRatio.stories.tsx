@@ -9,6 +9,7 @@ export default {
 } as ComponentMeta<typeof AspectRatio>
 
 const Template: ComponentStory<typeof AspectRatio> = (args) => (
+  // @ts-ignore
   <AspectRatio {...args} />
 )
 
